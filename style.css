@@ -1,0 +1,35 @@
+html {
+  background-color: #efe8f6;
+  font-family: system-ui;
+}
+
+body {
+  background-color: #ddc8ef;
+}
+
+
+#Title {
+  padding: 20px;
+  background-color: #ddc8ef;
+  color: #462465;
+  text-align: center;
+}
+
+
+#LightBlue {
+  color: #619eff
+}
+
+.Left_SmileyFaceGif {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.Right_SmileyFaceGif {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  float: right;
+}

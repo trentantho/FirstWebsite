@@ -1,68 +1,20 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>TM First Website</title>
-  <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+<heading>
+  <title>Trent's Website</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
-  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+</heading>
 
-
-</head>
-
-<body class="Main" id="Main">
+<body>
   <div id="Title">
-    <h1 id="Title_Text" class="WhiteText">
-      <img src="https://www.roadtrafficsigns.com/img/lg/K/pothole-slow-down-sign-k-0757.png" alt="Pothole" height="50"
-        width="35">
-      Report a Pothole:
+    <hr>
+    <h1>
+      <img class="Left_SmileyFaceGif" src="media/smile.gif" alt="Rotating smiley face GIF">
+      Welcome!
+      <img class="Right_SmileyFaceGif" src="media/smile.gif" alt="Rotating smiley face GIF">
     </h1>
-    <input type="color" name="" id="">
-  </div>
-
-  <div>
-    <p> lots of potholes! </p>
-
-    <ol>
-      <li>
-        <button onclick="showOnMap(41.69, -83.81)"> View on Map</button>
-      </li>
-      <li>
-        <button onclick="showOnMap(39.69, -83.81)"> View on Map</button>
-      </li>
-      <li>
-        <button onclick="showOnMap(41.69, -83.81)"> View on Map</button>
-      </li>
-    </ol>
-  </div>
-
-  <!-- Map Container -->
-  <div id="map">
-    <script>
-      var map = L.map('map').setView([51.505, -0.09], 13);
-
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      }).addTo(map);
-
-      L.marker([51.5, -0.09]).addTo(map)
-        .bindPopup('A pretty CSS popup.<br> Easily customizable.')
-        .openPopup();
-    </script>
-  </div>
-
-  <!-- Form Container -->
-  <div class="container">
-    <h1 id="Title_Text" class="WhiteText">Report:</h1>
-    <form action="/action_page.php">
-      <div>
-        <label class="WhiteText" for="name">Name:</label>
-      </div>
-      <div>
-        <input class="Margin" id="InputBox" type="text" name="name" placeholder="">
-      </div>
-    </form>
+    <hr>
   </div>
 </body>
 

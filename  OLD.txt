@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trent's Site</title>
+  <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="Main" class="Main">
+
+  <!-- Title Contaner-->
+  <div class="Title" id="Title">
+    <hr>
+    <h1 id="Title_Text" class="WhiteText">
+      Report a Pothole:
+      <img src="https://www.roadtrafficsigns.com/img/lg/K/pothole-slow-down-sign-k-0757.png" alt="Pothole" height="50"
+        width="35">
+    </h1>
+    <hr>
+  </div>
+
+  <!-- List Container -->
+  <div>
+    <p id="SubTitle_Text" class="WhiteText">Current Potholes:</p>
+    <ol>
+      <li id="LightBlue"> 34 Pine Ave, Sylvania, OH 43560
+        <button onclick="showOnMap(41.69, -83.81)"> View on Map</button>
+      </li>
+      <li class="WhiteText">
+        <button onclick="showOnMap(39.69, -83.81)"> View on Map</button>
+      </li>
+      <li class="WhiteText">
+        <button onclick="showOnMap(41.69, -83.81)"> View on Map</button>
+      </li>
+    </ol>
+  </div>
+
+  <!-- Form Container -->
+  <div class="container">
+    <h1 id="Title_Text" class="WhiteText">Report:</h1>
+    <form action="/action_page.php">
+      <div>
+        <label class="WhiteText" for="name">Name:</label>
+      </div>
+      <div>
+        <input class="Margin" id="InputBox" type="text" name="name" placeholder="Your name...">
+      </div>
+      <div>
+        <label class="WhiteText" for="address">Address:</label>
+      </div>
+      <div>
+        <input class="Margin" id="InputBox" type="text" name="address" placeholder="Your address...">
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>
