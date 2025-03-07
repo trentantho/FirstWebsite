@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html>
 <heading>
-  <title>Trent's Website</title>
+  <title>Trentsite</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+  <script src="script.js"></script>
+
+  <!-- Google's Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Horizontal Navigation Bar -->
+
 </heading>
 
+
+
 <body>
-  <div id="Title">
-    <hr>
-    <h1>
-      <img class="Left_SmileyFaceGif" src="media/smile.gif" alt="Rotating smiley face GIF">
-      Welcome!
-      <img class="Right_SmileyFaceGif" src="media/smile.gif" alt="Rotating smiley face GIF">
-    </h1>
-    <hr>
+  <ul id="NavBar">
+    <li class="NavLink"><a class="active" href="#home">Home</a></li>
+    <li class="NavLink"><a href="#news">News</a></li>
+    <li class="NavLink"><a href="#contact">Contact</a></li>
+    <li class="NavLink"><a href="#about">About</a></li>
+  </ul>
+  <div id="Body">
+    <div id="Title">
+      <hr>
+      <h1>
+        <img id="Left_SmileyFaceGif" src="media/smile.gif" alt="Rotating smiley face GIF">
+        Welcome!
+        <img id="Right_SmileyFaceGif" src="media/smile.gif" alt="Rotating smiley face GIF">
+      </h1>
+      <hr>
+    </div>
+
+    <div>
+      <p id="Intro">Welcome to the home of all things Trent Morrison! Here, I plan to upload some of my projects, or
+        links
+        to some of my favorite things from around the web. Making this website feels incredibly retro and futuristic at
+        the same time!
+    </div>
+
+
+    <div>
+      <p id="demo">Testing!</p>
+      <button onclick="func1()">Click Me!</button>
+    </div>
   </div>
 </body>
 
